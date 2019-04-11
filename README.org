@@ -1,0 +1,3 @@
+* Dockerfile for Make for checking Emacs packages
+This is a Dockerfile for running tests on Emacs packages. 
+Specifically, it is intended for running [[https://gitlab.petton.fr/DamienCassou/makel][makel]] locally before pushing the repository to a remote repository host.

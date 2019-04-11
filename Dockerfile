@@ -6,7 +6,7 @@ ENV EMACSBIN=${HOME}/emacs/src/emacs
 
 # Install dependencies
 RUN apt-get update
-RUN apt-get install --yes curl make
+RUN apt-get install --yes curl make xz-utils
 
 # Check if dependencies exists
 RUN curl --version

@@ -1,4 +1,4 @@
-IMAGE_NAME = emacs-make
+IMAGE_NAME = $(DOCKER_USERNAME)/emacs-make
 
 build:
 	docker build -t $(IMAGE_NAME):$(EMACS_VERSION) --build-arg EMACS_VERSION=$(EMACS_VERSION) .
